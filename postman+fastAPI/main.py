@@ -18,9 +18,4 @@ async def root():
 async def get_random():
     rn: int = random.randint(0,100)
     return{'number':rn , 'limit':100}
-
-
-
-
-
-
+    
